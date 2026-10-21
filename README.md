@@ -22,7 +22,7 @@ Twelve shot recipes do the building, among them a light sweeping across the obje
 
 Make up a number. A card waiting on a figure you didn't supply shows `[À FOURNIR]`, dimmed, until you fill it in. It won't go looking for music either: no file from you, no soundtrack.
 
-![Twelve frames from the test film, a made-up app with French on-screen text](skills/sebmake-videopresentation-likeapplepls/assets/apercu-film-test.jpg)
+![Twelve frames from the bundled example, a made-up desk lamp with French on-screen text](skills/sebmake-videopresentation-likeapplepls/assets/apercu-exemple.jpg)
 
 ## Install
 
@@ -39,9 +39,7 @@ You'll need Node 22 or later, ffmpeg and Python 3.9 or later. `npx` fetches Hype
 
 ## Still rough
 
-The example bundled with the skill goes from storyboard to finished renders in a little over a minute. The test film (a made-up app, four schematic screenshots, no music) drags: with so few visuals, text holds the screen 60% of the time, and the check now warns you when visuals run thin. Nobody has tried the physical-object recipes on a real product yet.
-
-Release v1.0.0 carries the three test renders: 88 s in 16:9, 30 s vertical, 15 s square.
+The example bundled with the skill, the desk lamp above, goes from storyboard to finished renders in about two minutes, and release v1.0.0 carries its three cuts: 65 s in 16:9, 30 s vertical, 15 s square. An earlier test film for a made-up app (four schematic screenshots, no music) dragged: with so few visuals, text held the screen 60% of the time, and the check now warns you when visuals run thin. Nobody has tried the physical-object recipes on a real product yet.
 
 ---
 
