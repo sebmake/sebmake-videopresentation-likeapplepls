@@ -1,9 +1,9 @@
 {
-  "name": "sebmakes-videopresentation-likeapplepls",
-  "version": "1.0.0",
+  "name": "sebmake-videopresentation-likeapplepls",
+  "version": "1.0.1",
   "description": "Makes a voiceless 1-2 minute product film built like the reveal films of Apple keynotes, then cuts it into 15-60 s versions for social media (16:9, 9:16, 1:1), rendered to MP4 with HyperFrames.",
   "author": { "name": "sebmake" },
-  "homepage": "https://github.com/sebmake/sebmakes-videopresentation-likeapplepls",
+  "homepage": "https://github.com/sebmake/sebmake-videopresentation-likeapplepls",
   "license": "MIT",
   "keywords": ["video", "product-film", "launch", "hyperframes", "reels", "vertical-video"]
 }

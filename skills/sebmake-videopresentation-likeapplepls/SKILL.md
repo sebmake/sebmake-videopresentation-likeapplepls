@@ -1,6 +1,6 @@
 ---
-name: sebmakes-videopresentation-likeapplepls
-description: "Crée un film produit sans voix de 1 à 2 minutes, bâti sur la grammaire des films de révélation des keynotes Apple (accroche, montée, révélation tardive, nom en chute), puis ses déclinaisons réseaux de 15 à 60 s en 16:9, vertical 9:16 et carré 1:1, rendues en MP4 aux couleurs de l'utilisateur, avec sa musique ou sans musique. À utiliser dès qu'on demande un film produit, une vidéo de lancement, un teaser, une vidéo de révélation, une vidéo « à la Apple » ou « façon keynote », ou des reels, shorts, stories ou versions verticales d'un lancement, même sans le mot Apple. EN: makes a voiceless 1-2 min Apple-keynote-style product reveal film plus its 15-60 s social cuts (16:9, 9:16, 1:1) as MP4, for any product film, launch video, teaser, reveal video or reels/vertical cut of a launch. Pas pour une présentation en slides (skill sebmakes-keynote-likeapple-pls), ni pour une vidéo avec voix off ou présentateur, ni pour un montage d'interview. Not for slide decks, voice-over or presenter videos, or interview edits."
+name: sebmake-videopresentation-likeapplepls
+description: "Crée un film produit sans voix de 1 à 2 minutes, bâti sur la grammaire des films de révélation des keynotes Apple (accroche, montée, révélation tardive, nom en chute), puis ses déclinaisons réseaux de 15 à 60 s en 16:9, vertical 9:16 et carré 1:1, rendues en MP4 aux couleurs de l'utilisateur, avec sa musique ou sans musique. À utiliser dès qu'on demande un film produit, une vidéo de lancement, un teaser, une vidéo de révélation, une vidéo « à la Apple » ou « façon keynote », ou des reels, shorts, stories ou versions verticales d'un lancement, même sans le mot Apple. EN: makes a voiceless 1-2 min Apple-keynote-style product reveal film plus its 15-60 s social cuts (16:9, 9:16, 1:1) as MP4, for any product film, launch video, teaser, reveal video or reels/vertical cut of a launch. Pas pour une présentation en slides (skill sebmake-keynote-likeapple-pls), ni pour une vidéo avec voix off ou présentateur, ni pour un montage d'interview. Not for slide decks, voice-over or presenter videos, or interview edits."
 ---
 
 # Film produit à la manière des keynotes
@@ -15,7 +15,7 @@ Cette skill produit deux choses :
 Tout part d'un seul fichier, `film.json`. Le moteur en tire des projets HyperFrames (HTML + GSAP), une planche de validation et les MP4. Corrige toujours `film.json`, jamais le projet produit : `build_film.js` le réécrit à chaque passage. Les skills HyperFrames ne sont pas nécessaires ; `npx hyperframes` suffit.
 
 ```bash
-SKILL="<dossier de ce SKILL.md>"   # souvent ~/.claude/skills/sebmakes-videopresentation-likeapplepls
+SKILL="<dossier de ce SKILL.md>"   # souvent ~/.claude/skills/sebmake-videopresentation-likeapplepls
 ```
 
 Prérequis : Node 22 ou plus avec `npx hyperframes` (0.8), ffmpeg et ffprobe, Python 3.9 ou plus. S'il en manque un, dis-le : la skill peut aller jusqu'au `film.json` contrôlé, pas jusqu'au rendu. N'installe rien sans son accord.
