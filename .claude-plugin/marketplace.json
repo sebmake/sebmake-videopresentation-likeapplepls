@@ -6,7 +6,7 @@
     {
       "name": "sebmake-videopresentation-likeapplepls",
       "description": "Voiceless product film (1-2 min) in the style of keynote reveal films, plus 15-60 s social cuts, rendered to MP4.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": { "name": "sebmake" },
       "source": "./",
       "category": "productivity",
