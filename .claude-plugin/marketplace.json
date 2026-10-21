@@ -1,16 +1,16 @@
 {
-  "name": "sebmakes-video",
-  "metadata": { "description": "Video skills by sebmakes" },
-  "owner": { "name": "sebmakes" },
+  "name": "sebmake-video",
+  "metadata": { "description": "Video skills by sebmake" },
+  "owner": { "name": "sebmake" },
   "plugins": [
     {
       "name": "sebmakes-videopresentation-likeapplepls",
       "description": "Voiceless product film (1-2 min) in the style of keynote reveal films, plus 15-60 s social cuts, rendered to MP4.",
       "version": "1.0.0",
-      "author": { "name": "sebmakes" },
+      "author": { "name": "sebmake" },
       "source": "./",
       "category": "productivity",
-      "homepage": "https://github.com/sebmakes/sebmakes-videopresentation-likeapplepls"
+      "homepage": "https://github.com/sebmake/sebmakes-videopresentation-likeapplepls"
     }
   ]
 }

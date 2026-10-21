@@ -27,8 +27,8 @@ Deux interdits tiennent quoi qu'il arrive. Elle n'invente aucun chiffre : un car
 En plugin Claude Code :
 
 ```bash
-claude plugin marketplace add sebmakes/sebmakes-videopresentation-likeapplepls
-claude plugin install sebmakes-videopresentation-likeapplepls@sebmakes-video
+claude plugin marketplace add sebmake/sebmakes-videopresentation-likeapplepls
+claude plugin install sebmakes-videopresentation-likeapplepls@sebmake-video
 ```
 
 À la main, copiez `skills/sebmakes-videopresentation-likeapplepls` dans `~/.claude/skills/`.
@@ -51,7 +51,7 @@ The rules come from 51 films measured across eight Apple keynotes (2019 to 2026)
 
 It asks about your product, your visuals and your brand colours (or a design-system link), shows you the structure and a storyboard, and only renders once you've approved them. Output is a 16:9 MP4 plus 9:16 and 1:1 versions that get recomposed rather than cropped. It won't invent a figure (missing ones show as `[TO PROVIDE]`) and it won't fetch music you didn't supply.
 
-Install with `claude plugin marketplace add sebmakes/sebmakes-videopresentation-likeapplepls`, then `claude plugin install sebmakes-videopresentation-likeapplepls@sebmakes-video`, or copy the skill folder into `~/.claude/skills/`. You'll need Node 18+, ffmpeg and Python 3.9+.
+Install with `claude plugin marketplace add sebmake/sebmakes-videopresentation-likeapplepls`, then `claude plugin install sebmakes-videopresentation-likeapplepls@sebmake-video`, or copy the skill folder into `~/.claude/skills/`. You'll need Node 18+, ffmpeg and Python 3.9+.
 
 ---
 
